@@ -1,0 +1,68 @@
+nav {
+    background-color: bisque;
+    opacity: 0.7;
+    height: 60px;
+ 
+    
+}
+header{
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    position: sticky;
+}
+nav a{ color: rgb(97, 47, 12);
+
+}
+ nav li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(97, 47, 12);
+    width: 150px;
+    height: 60px;
+
+}
+img {
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+}
+h1 {
+    background-color: aliceblue;
+ 
+}
+
+ul {
+    background-color: rgb(195, 186, 197);
+    margin: 10px 20px;
+}
+
+body{
+    background-color: rgb(46, 43, 43);
+}
+#s2 { 
+    
+    background-color: bisque;
+    display: flex;
+}
+
+main > div{
+    border-color: beige;
+    border-width: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+main > article {
+    width: 70%;
+}
+
+section {
+    height: 200px;
+}
