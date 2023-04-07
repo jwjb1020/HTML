@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #A0867A;
+}
+
+body {
+    background-color: #747474;
+}
+
+nav a {
+    color: #ffffff;
+
+
+
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 60px;
+
+
+}
+
+main {
+    display: flex;
+
+}
+
+#s1 {
+    background-color: rgba(182, 187, 192, 0.507);
+    width: 30%;
+    border: #ffffff 5px;
+    padding: 10px;
+}
+
+#s1 article {
+    text-align: left;
+
+}
+
+#s1>img {
+    width: 100%;
+
+}
+#s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#s2 article {
+    background-color: #A0867A;
+
+}
