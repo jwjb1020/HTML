@@ -3,9 +3,14 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 50px;
     display: flex;
     border-bottom: 2px outset rgb(0, 0, 0);
+    background-color: white;
 }
 
 header nav {
@@ -32,7 +37,7 @@ header li {
     color: dimgrey;
 }
 
-main {
+main {margin-top: 50px;
     display: flex;
 }
 
@@ -91,4 +96,9 @@ details summary::after {
     content: "";
     transition: transform var(--transition);
     color: black;
+}
+footer  {
+    display: flex;
+    justify-content: center;
+    
 }
