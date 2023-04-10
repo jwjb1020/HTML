@@ -12,12 +12,13 @@ body {
 
 nav a {
     color: #ffffff;
-
+    text-decoration-line: none;
 
 
 }
 
 nav li {
+
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -48,14 +49,16 @@ main {
     width: 100%;
 
 }
-#s2{
+
+#s2 {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 #s2 article {
-    
+
     background-color: #A0867A;
 
 }
