@@ -35,7 +35,6 @@ main {
 
 #s1 {
     background-color: rgba(182, 187, 192, 0.507);
-    width: 30%;
     border: #ffffff 5px;
     padding: 10px;
 }
@@ -50,11 +49,13 @@ main {
 
 }
 #s2{
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 #s2 article {
+    
     background-color: #A0867A;
 
 }
