@@ -35,9 +35,10 @@ main {
 }
 
 #s1 {
+    padding: 20px;
     background-color: rgba(182, 187, 192, 0.507);
-    border: #ffffff 5px;
-    padding: 10px;
+    margin: 20px 20px;
+    
 }
 
 #s1 article {
