@@ -37,11 +37,13 @@ header li {
     color: dimgrey;
 }
 
-main {margin-top: 50px;
+main {
+    margin-top: 50px;
     display: flex;
 }
 
 #s1 {
+    height: 450px;
     margin: 20px;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -50,7 +52,13 @@ main {margin-top: 50px;
     margin-left: 0px;
 }
 
+#h1 {
+    margin: 10px 0px;
+}
+
 #a1 ul {
+    margin: 0px 20px 0px 20px;
+    padding: 0;
     list-style: none;
 
 }
@@ -75,30 +83,37 @@ main {margin-top: 50px;
     border-bottom: 1px solid black;
     padding-bottom: 30px;
 }
-#s2 summary{
+
+#s2 summary {
     line-height: 1rem;
     list-style-type: none;
     cursor: pointer;
-    transition: color var(--transition);
 }
-details summary::after {
-    display: block;
-    width: 1rem;
-    height: 1rem;
-    -webkit-margin-start: calc(var(--spacing,1rem) * 0.5);
-    margin-inline-start: calc(var(--spacing,1rem) * .5);
-    float: right;
-    transform: rotate(-90deg);
-    background-image: var(--icon-chevron);
-    background-position: right center;
-    background-size: 1rem auto;
-    background-repeat: no-repeat;
-    content: "";
-    transition: transform var(--transition);
-    color: black;
+
+
+#d2 div {
+    text-align: center;
+    margin: 10px;
 }
-footer  {
+
+#d2 img {
+    width: 150px;
+}
+
+#d2 ol {
+
+
+    list-style: none;
+    display: flex;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
-    
+    align-content: end;
+    position: fixed;
+    margin-bottom: 50px;
 }
