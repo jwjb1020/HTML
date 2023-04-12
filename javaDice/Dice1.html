@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <!-- 외부스크립트 가져오기 -->
+  
+    <title>k-digital 3기 js</title>
+    <!-- <script>
+        alert("안녕하세요.")
+    </script> 
+위치가 아무곳이나 있어도 눌러야 나옴 -->
+</head>
+
+<body>
+    <!--   <script>
+        alert("안녕하세요.")
+    </script> -->
+    <main class="container">
+        <article>
+            <header>
+
+                <h1>주사위 게임</h1>
+
+            </header>
+            <h2 id="h2id" class="h1Class"></h2>
+            <footer>
+                <!-- form은 동작하고 난뒤 다시 페이지 새로고침됨 -->
+                <form action="">
+
+                    <!-- Radios -->
+                    <fieldset>
+                        <legend>숫자선택</legend>
+                        <div class="grid">
+                            <label for="d1">
+                                <input type="radio" id="d1" name="num" value="1">1
+                            </label>
+                            <label for="d2">
+                                <input type="radio" id="d2" name="num" value="2">2
+                            </label>
+                            <label for="d3">
+                                <input type="radio" id="d3" name="num" value="3">3
+                            </label>
+                            <label for="d4">
+                                <input type="radio" id="d4" name="num" value="4">4
+                            </label>
+                            <label for="d5">
+                                <input type="radio" id="d5" name="num" value="5">5
+                            </label>
+                            <label for="d6">
+                                <input type="radio" id="d6" name="num" value="6">6
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                    <div class="grid">
+                        <button id="bt1">확인</button>
+                        <button type="reset">취소</button>
+                    </div>
+                </form>
+
+            </footer>
+        </article>
+    </main>
+    <script src="./Dice1.js"></script>
+
+    <!-- <script>
+        function show() {
+            alert("안녕하세요.");
+        }
+
+    </script> -->
+</body>
+
+</html>
