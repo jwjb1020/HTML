@@ -6,7 +6,7 @@
   
   header {
     height: 10vh;
-    background-color: #001d32;
+    background-color: #6a8af0;
     color: #cde5ff;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
     align-items: center;
     width : 80px;
     height : 80px;
-    border: 1px #001d32 solid;
+    border: 1px #000000 solid;
     background-color: bisque;
   }
   
@@ -77,6 +77,6 @@
   }
   
   button:hover, button:active {
-    background-color:#cde5ff;
-    color: #006399;
+    background-color:#a082e7;
+    color: #001b29;
   }
